@@ -1,12 +1,12 @@
 require 'pry'
 
 class Student
-  attr_accessor :first_name, :last_name, :grade
+  attr_accessor :first_name, :last_name, :grades
 
-  def initialize(first_name, last_name, grade)
+  def initialize(first_name, last_name, grades)
     @first_name = first_name
     @last_name = last_name
-    @grade = grade
+    @grades = grade
   end
 
 end
